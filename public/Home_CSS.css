@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: blanchedalmond;
+}
+
+nav a img {
+    width: 100px;
+    height: 100px;
+    margin-left: 25px;
+}
+
+nav {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(240, 252, 134);
+    box-shadow: 0px 1px 50px rgb(245, 255, 154);
+    z-index: 1;
+}
+section {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    margin: 0px 0px 0px 0px;
+}
+
+#top_menu {
+    display: flex;
+    list-style: none;
+}
+
+#top_menu li a {
+    margin: 15px;
+    text-decoration: none;
+    color: rgb(252, 196, 113);
+}
+
+#top_menu li a:hover {
+    background-color: blanchedalmond;
+    color: burlywood;
+    padding: 10px 10px 10px 10px;
+    transition: all ease 0.2s;
+}
+
+#Train {
+    width: 100%;
+    color: blue;
+    display: flex;
+    justify-content: space-between;
+    font-size: 3em;
+}
+
+
+div {
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px 10px 10px 10px;
+}
+
+#Front {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+#Front a {
+    width: 25px;
+    height: 25px;
+    text-decoration: none;
+    margin: 250px 0px 250px 0px;
+    background-color: rgb(255, 214, 153);
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+}
